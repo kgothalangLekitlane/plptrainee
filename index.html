@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        body{
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align:center;
+        }
+        img{
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table{
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            background: white;
+        }
+
+        th ,td{
+            border: 1px solid #f0f0f0;
+            padding: 10px;
+            text-align:left;
+
+
+        }
+        th{
+            background: #f0f0f0;
+            color:white;
+        }
+
+        .container{
+            width:300px;
+            margin:20px auto;
+            background:white;
+            padding:20px;
+            border-radius:5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        input, button{
+            width:100%;
+            padding:10px;
+            margin:5px 0;
+            border:1px solid #f0f0f0;
+            border-radius:5px;
+            text-align:center;
+        }
+
+        button{
+            background:#4CAF50;
+            color:white;
+            cursor:pointer;
+            border:none;
+        }
+
+
+
+    </style>
+
+<body>
+    <h2>Steps to Register</h2>
+    <ol type="I">
+        <li>Click on the Register Button</li>
+        <li>Fill in the form</li>
+        <li>Click on the Register Button</li>
+        <li>Click on the Login Button</li>
+        <li>Fill in the form</li>
+        <li>Click on the Login Button</li>
+        <li>Click on the Profile Button</li>
+        <li>Click on the Logout Button</li>
+    </ol>
+    <h2>Beautiful Scenery from Pexels</h2>
+    <img src="https://images.pexels.com/photos/31136710/pexels-photo-31136710/free-photo-of-young-boy-playing-with-puzzle-on-a-sunny-day.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A Boy playing with toys">
+    <p>Image by<a rel="noopener" href="https://images.pexels.com/photos/31136710/pexels-photo-31136710/free-photo-of-young-boy-playing-with-puzzle-on-a-sunny-day.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank">Pixabay</a>from Pexels.</p>    
+
+    <h2>Contact List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address></th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>23 sandown road</td>
+            <td>0893748329</td>
+            <td>johndoe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>23 sandown road</td>
+            <td>0893748329</td>
+            <td>janedoe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Dave Smith</td>
+            <td>23 sandown road</td>
+            <td>0893748329</td>
+            <td>davesmith@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Joshua Smith</td>
+            <td>23 sandown road</td>
+            <td>0893748329</td>
+            <td>joshuasmith@gmail.com</td>
+        </tr>
+        <tr>
+            <td>David Wilson</td>
+            <td>23 sandown road</td>
+            <td>0893748329</td>
+            <td>davidwilson@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Register</h2>
+    <div class="container">
+        <form action="register.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Name">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password">
+
+            <button type="submit">Register</button>
+        </form>
+
+    </div>
+
+</body>
+    
+
+
+</html>
